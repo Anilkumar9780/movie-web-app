@@ -1,0 +1,27 @@
+html {
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+}
+
+
+.progressBarContainer {
+    position: fixed;
+    z-index: 10;
+    background: rgba(244, 174, 174, 0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.progressBar {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 255, 255), rgb(0, 255, 47));
+    transform-origin: top left;
+    transform: scale(0, 0);
+    opacity: 0;
+}
+
+.progressBarContainer,
+.progressBar {
+    height: 3px;
+}
